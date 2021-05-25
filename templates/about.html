@@ -1,0 +1,77 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}Resume{% endblock title %}
+
+{% block body %}
+<link rel="stylesheet" href={% static 'css/resume.css' %}>
+<div id="hero" class="hero route bg-image" style="background-image: url({% static 'images/second.jpg' %})">
+ </div>
+<section id="resume" class="resume section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h1 class="text-center head">Resume</h1>
+          </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Yash Rajput</h4>
+              <p><em>AI developer and Web developer using python and having a experience working on game development, machine learning, deep learning.
+                    I can also work with java, c++.
+                </em></p>
+              <p>
+              </p><ul>
+                <li>8941989294</li>
+                <li>yasharajput0508@gmail.com</li>
+              </ul>
+              <p></p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>12th class</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Adarsh Inter College</em></p>
+              <p>I have passed my 12th with 70%</p>
+            </div>
+            <div class="resume-item">
+              <h4>Bachelor of Technology</h4>
+              <h5>2018 - 2022</h5>
+              <p><em>Rakshpal bahadur college of engineering and technology</em></p>
+              <p>I am currenlty persuing btech(cs). My last year result is 77%</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Technical skills</h3>
+            
+            <div class="resume-item">
+              <h4>Skills</h4>
+              <h5>2017 - 2018</h5>
+              <p>
+              </p><ul>
+                <li>Programming skills:- Python, C++, java, c#</li>
+                <li>Database skills:- Sql, Mysql</li>
+                <li>Other skills:- Machine and Deep learning , Game development , Web development, Android development</li>
+              </ul>
+              <p></p>
+            </div>
+            <div class="resume-item">
+              <h4>Awards and Certificates</h4>
+              <ul>
+                <li>3rd position on programming competition at zonal level conducted by APJ Abdul kalam university</li>
+                <li>MDC certificate by sistem computer education </li>
+              </ul>
+              <p></p>
+            </div>
+        </div>
+        
+          </div>
+
+      </div>
+    </section>
+{% endblock body %}
+
+
+

@@ -1,0 +1,149 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}Project{% endblock title %}
+
+{% block body %}
+<link rel="stylesheet" href={% static 'css/resume.css' %}>
+<div id="hero" class="hero route bg-image" style="background-image: url({% static 'images/first.jpg' %})">
+ </div>
+ <section id="resume" class="resume section-bg">
+ 
+<div class="album py-5 bg-light">
+    <div class="container">
+    <div class="section-title">
+    <h1 class="text-center head">My Projects</h1>
+          </div>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src={% static 'images/chatbot.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">Chatbot</h3>
+              <p class="card-text text-center">I create chatbot which gives the answer of your question and it creating using qt5 framework and deep learing.</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/Chatbot" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/face.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+             <h3 class="text-center head">Face Detection</h3>
+             <p class="card-text text-center">This is the AI project which detects the human face. It can detect the face of human by it intelligence.</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/face-detection" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/mask.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+             <h3 class="text-center head">Face-Mask Detection</h3>
+             <p class="card-text text-center">This is a This is the AI project which detect the human wearing mask or not. It describe the probability that the human wearing the mask.</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/Face-Mask-detection" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/objects.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">Object Detection</h3>
+              <p class="card-text text-center">This is the deep learning project which detects the object such as human, chair, mobile, earphone etc</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/object-detection" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/Handwriting.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">Handwriting classification</h3>
+              <p class="card-text text-center">This project classify your handwriting and predicts the number 0-9 . This project created using machine learning.</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/Handwriting-classification" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/Stock.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+             <h3 class="text-center head">Stock Price Prediction</h3>
+             <p class="card-text text-center">This is a machine learning project which predict the stock price. It predict the future stock pricing using the data.</p>
+              <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/Stock_Prediction" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/game.png' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">Mission Ninja Game</h3>
+              <p class="card-text text-center">This 2d game is created by unity engine. It is created using c# programming. This project now in play store.</p>
+                <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://play.google.com/store/apps/details?id=com.YashRajput.MissionNinja" target="_blank">Playstore link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/calculator.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">Calculator</h3>
+              <p class="card-text text-center">This Calculator is created by python using qt5 framework. It is the advance calculator which solve the problems.</p>
+                <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/Calculator" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src={% static 'images/cifar.jpg' %} class="bd-placeholder-img card-img-top" width="100%" height="225" alt="">
+            <div class="card-body">
+            <h3 class="text-center head">CIFAR-10 classification</h3>
+              <p class="card-text text-center">This is a machine learning project which is used to classify images  such as truck, aeroplane, frog etc.</p>
+                <div class="text-center justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-danger"><a href="https://github.com/yashrajput0508/cifar-detection" target="_blank">Github link</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </section>
+{% endblock body %}
